@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="listenerstest">
+	<listeners>
+		<listener class-name="listeners.Listenerss" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="listeners.LoginTest" />
+			<methods>
+				<include name="loginByEmail" />
+				<include name="loginByFacebook" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

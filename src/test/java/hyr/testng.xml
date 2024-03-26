@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<test name="GoogleTest">
+		<classes>
+			<class name="hyr.Test1">
+				<methods>
+					<include name="testGoogle"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="KekaTest">
+		<classes>
+			<class name="hyr.Test1">
+				<methods>
+					<include name="testKeka"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Amazon">
+		<classes>
+			<class name="hyr.Test1">
+				<methods>
+					<include name="testOrange"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

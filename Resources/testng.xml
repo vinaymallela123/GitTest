@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DemoSuite">
+
+	<test name="verifylogin">
+		<classes>
+			<class name="vinaykumar.OrangeHrm">
+				<methods>
+					<include name="launchApp" />
+					<include name="enterLoginDetails" />
+					<include name="verifyLogin" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+	
+	<test name="verifymyinfo">
+		<classes>
+			<class name="vinaykumar.OrangeHrm">
+				<methods>
+					<include name="launchApp" />
+					<include name="enterLoginDetails" />
+					<include name="navigateToMyInfo" />
+					<include name="verifyMyinfo" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+	<test name="TestGoogle">
+		<classes>
+			<class name="vinaykumar.Vinay1">
+				<methods>
+					<include name="testGoogle" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite> 
